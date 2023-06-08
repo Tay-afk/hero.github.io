@@ -1,0 +1,111 @@
+html{
+    margin: 0;
+    padding: 0;
+    background: url(../images/background-page.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+    position: relative;
+    min-height: 100vh;
+}
+
+header{
+    background: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width:100%;
+    height:100vh;
+    display: flex;
+    margin:0;
+    padding:0;
+    justify-content: center;
+    align-items: center;
+    flex-flow:column;
+    color:rgb(224, 169, 18);
+    font-family: 'Amatic SC';
+    font-size:20px;
+}
+img{
+    border:3px solid rgb(175, 162, 104);
+}
+.content-hero{
+    padding-top:300px;
+    padding-bottom:400px;
+    text-align: center;
+}
+.content-hero h1{
+    font-family:'Rubik';
+    color:red
+
+}
+.content-hero h2{
+    color:rgb(240, 240, 240);
+    text-align: justify;
+    font-family: 'Alegreya Sans';
+}
+.content-hero img{
+    float:left;
+    border:3px solid red;
+}
+.content-foundingfather{
+    padding:100px;
+}
+.content-foundingfather h1{
+    font-size:50px;
+}
+.right{
+    float:right;
+}
+.left{
+    float:left;
+}
+#tay{
+    text-align: center;
+}
+#meongman{
+    text-align: center;
+}
+#zen{
+    text-align: center;
+}
+#hasan{
+    text-align: center;
+}
+.content-foundingfather img{
+    border:3px solid rgb(233, 231, 149);
+}
+.content-foundingfather{
+    text-align: center;
+    color:yellow
+}
+.content-foundingfather figcaption{
+    color: rgb(55, 11, 216);
+    
+}
+figcaption{
+    font-family:'Rubik', sans-serif;
+}
+dt{
+    font-family: 'Caveat';
+    font-size: 20px;
+    color:aliceblue;
+    background-color: rgba(0,0,0,0.6)
+}
+footer{
+   background-color: rgb(0, 0, 0,0.4);
+   color: white;
+   padding: 0.5em;
+   position:absolute;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+}
+a{
+    color:white;
+}
+a:hover{
+    color:aqua;
+}
